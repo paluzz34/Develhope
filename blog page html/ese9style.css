@@ -1,0 +1,78 @@
+body {
+    background-image:url(https://thumbs.dreamstime.com/b/stampa-della-zampa-del-cane-e-del-gatto-con-gli-artigli-90836184.jpg);
+    background-size: 50%;
+    font-family: Arial, sans-serif;
+    background-position-x: center;
+
+}
+
+header {
+     color: rgb(0, 0, 0);
+    padding: 0px 0;
+    text-align:center;
+}
+
+header h1 {
+        margin: 0;
+        text-align: center;
+        font-size: 3em; /* Imposta la dimensione del font a 3em (o il valore che preferisci) */
+        margin-bottom:5px ;
+        font-weight: bold;
+}
+
+nav  {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 10px;
+    font-weight: bold;
+    text-align: right;
+}
+nav2{
+    text-align:center;
+}
+nav{
+    color: white;
+    text-decoration: none;
+}
+
+section.articolo1 {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: left;
+    font-weight: bold;
+    background-position-x:right;
+    background-image:url(https://uploads.nonsprecare.it/wp-content/uploads/2016/11/cibo-per-gatti-fai-da-te-sano-e-low-cost-3.jpg) ;
+}
+section.articolo2 {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image:url(https://www.veterinarni-lekari.cz/media/image/d5dd864d67cd48946de10ba0a80743c2.jpeg);
+    background-position-x: center;
+    border-radius: 8px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align:left;
+     font-weight: bold;
+}
+   
+
+section.articolo {
+    max-width: 100%;
+    height: auto;
+}
+form{
+    text-align:right;
+}
+
+footer {
+    text-align: center ;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
