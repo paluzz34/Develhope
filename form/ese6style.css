@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/online-banking-application-concept-with-digital-bank-building-sign-with-indicators-virtual-projection-from-digital-tablet-man-hand_670147-510.jpg?w=826);
+    background-position:right
+}
+h1{
+    text-align: center;
+    background-color: rgb(5, 21, 235);
+}
+.form-element{
+    text-align: center;
+    color: rgb(89, 0, 231);
+}
+.form-elementpass{
+    text-align: center;
+    color:  rgb(89, 0, 231);
+}
+.form-name{
+    text-align: center;
+    color: rgb(89, 0, 231) ;
+}
+
+.fom-last-name{
+    text-align: center;
+    color: rgb(89, 0, 231) ;
+}
+
+.form-date{
+    text-align: center;
+    color:  rgb(89, 0, 231);
+}
+
+.form-number{
+    text-align: center;
+    color: rgb(89, 0, 231) ;
+}
+
+.form-select{
+    text-align: center;
+    color: rgb(89, 0, 231) ;
+}
+
+
+.form-credit-card{
+    text-align: center;
+    color: rgb(89, 0, 231);
+}
+
+.form-button{
+    text-align: center;
+    color: rgb(89, 0, 231);
+}
