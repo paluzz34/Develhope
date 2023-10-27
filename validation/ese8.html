@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="ese6style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form registrati</title>
+</head>
+
+<body>
+    <form>
+        <h1>online banking</h1>
+        <div class="form-element">
+            <label for="email">email</label><br>
+            <input type="email" name="email" required>
+
+        </div>
+
+        <div class="form-elementpass">
+            <label for="password">password</label><br>
+            <input type="password" name="password" required>
+
+        </div>
+
+        <div class="form-name">
+            <label for="name">name</label><br>
+            <input type="text" name="name" required>
+
+        </div>
+
+        <div class="fom-last-name">
+            <label for="lastname">lastname</label><br>
+            <input type="text" name="lastname" required>
+
+        </div>
+
+        <div class="form-date">
+            <label for="date">date of birth</label><br>
+            <input type="date" name="date" required>
+
+        </div>
+
+        <div class="form-number">
+            <label for="number">telephone number</label><br>
+            <input type="number" name="number" required>
+
+        </div>
+
+        <div class="form-select">
+            <label for="select"> select plans</label><br>
+            <select name="select" id="select plans">
+                <option value="free plan">free plan</option>
+                <option value="base plan"> base 20$</option>
+                <option value="advance plan">advance 40$</option>
+                <option value="full plan">full 120$</option>
+            </select>
+            <input type="checkbox" name="pro-plan"checked required>
+            <label for="pro-plan">pro plan</label required>
+        </div>
+
+        <div class="form-credit-card">
+            <label for="credit">credit card number</label>
+            <input type="number" name="credit" required>
+            <label for="cvc">cvc</label>
+            <input type="text" id="cvc" name="cvc" maxlength="3" required>
+            <label for="date">exspiration</label>
+            <input type="date" name="date" required>
+            <label for="address">billing address</label>
+            <input type="text" name="billing-address" required>
+        </div>
+        <div class= form-button>
+            <button>submlit</button>
+        </div>   
+    </form>
+
+</body>
+
+</html>
+ <!---per convalidare tutti campi ho aggiunto agli input "required" in odo che dovrenno essere obbligatori da complilare.-->
+    <!---nell'elemento di input  ho utilizzato l'attributo maxlength per la lunghezza massima CVC.-->
