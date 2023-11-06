@@ -1,0 +1,111 @@
+.navbar{
+  background-color: #245252;
+  display:flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  align-items: center;
+  border-bottom: solid 3px rgb(174, 164, 164) ;
+  font-family: "roboto", sans-serif;
+  margin: 1%
+}
+
+.left_nav{
+  display:flex;
+  align-items:center ;
+
+}
+
+.logo{
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 3px;
+  text-decoration: none;
+
+}
+
+.left-nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+
+.linknav{
+  color: rgb(179, 172, 172);
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  color: rgb(179, 172, 172);
+
+}
+
+.dropbtn {
+  background-color: #25252a;
+  font-size: 100%;
+  color: rgb(179, 172, 172);
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+
+.dropdown-content {                                      /* Stile per il contenuto del menu a tendina (nascosto per impostazione predefinita) */
+  display: none;
+  margin-top: 15px;
+  position: absolute;
+  background-color: #25252c;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.dropdown-content a {                           /* Stile per gli elementi del menu a tendina */   
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {               /* Visualizza il menu a tendina quando si passa il mouse sopra al pulsante del menu a tendina */
+  display: block;
+}
+
+#disabledCol {
+  color: rgb(108, 109, 108);
+}
+
+
+.right-nav {                            /* Stile per la parte destra della navbar */
+  display: flex;
+  align-items: center;
+}
+
+
+.right-nav input[type="text"] {                      /* Stile per l'input text e il pulsante nella parte destra della navbar */       
+  padding: 12px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.right-nav button {
+  background-color: #25252a;
+  color: green;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: green;
+  border-radius: 5px;
+  margin-left: 7px;
+  margin: 5px 5px;
+}
+
+
+.right-nav button:hover {
+  background-color: #ddd;             /* Cambia il colore del pulsante al passaggio del mouse */      
+  color: black;
+}
