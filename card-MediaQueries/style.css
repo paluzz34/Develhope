@@ -1,0 +1,180 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: rgb(233, 233, 233);
+    ;
+    border-radius: 40px;
+    box-shadow: 10px 5px 5px rgb(188, 188, 188);
+    ;
+    margin: 10px;
+    overflow: hidden;
+    width: 400px;
+
+    background: linear-gradient(0deg, rgba(233, 233, 233, 1) 0%, rgba(177, 177, 177, 1) 100%);
+}
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    height: 12%;
+    padding: 15px;
+    border-bottom: 0px solid #ddd;
+    background-color: hsl(0, 0%, 43%);
+}
+
+.card-header--title-user {
+    width: 50%;
+     text-align: left;
+    font-weight: bold;
+}
+
+.card-header--icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+.card-header--icon-img {
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.card-header--title {
+    flex-grow: 1;
+    margin: 0;
+    color: black;
+
+}
+
+.card-header--title p {
+    margin: 0;
+}
+.card-header--title-date{
+    color: white;
+}
+
+.card-header--menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-header--menu img {
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.card-img img {
+    width: 100%;
+    height: 250px;
+    max-height: 200px;
+    object-fit: cover;
+
+
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content--icons {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+
+}
+
+.card-content--icons-icon {
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+    background-color: #ece1e1;
+
+}
+.card-content--icons-icon button {
+   background-color: transparent;
+   border: none;
+   width: 35px;
+   height: 35px;
+}
+.card-content--icons-icon button ion-icon{
+    width:100%;
+    height: 100%;
+
+}
+.card-content--icons-icon.like {
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+
+}
+
+.card-content--icons-icon.comment {
+    padding: 5px;
+    font-size: large;
+    background-color: transparent;
+    border: none;
+
+}
+
+.card-content--paragraph {
+    line-height: 0, 5;
+    padding-bottom: 30px;
+}
+
+.card-content--paragraph-title {
+    color: #000000;
+    display: inline-block;
+    font-weight: bold;
+}
+.card-content--paragraph-title p{
+    margin:0;
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .card_container {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
