@@ -1,9 +1,21 @@
-body {
-    background-color: #ff0000;
+
+:root{        /*è il selettore CSS :root, che viene utilizzato per definire le variabili CSS globali.*/
+    --background-body: #000000;                      
+    --background-color: rgb(163, 27, 22);
+    --width: 100px;  
+    --heigth: 100px;
+    --border-radius: 50%;
 }
-.ball {
-    width: 100px;
-    height: 100px;
-    background-color: #000000;
-    border-radius: 50px;
+
+body {
+    background-color: var(--background-body) ;    /*viene impostato il colore di sfondo dell'intero corpo della pagina Web utilizzando una variabile CSS (--background-body).*/
+}
+
+
+/*Imposta la larghezza e l'altezza utilizzando le variabili globali (--width e --height), il colore di sfondo utilizzando la variabile --background-color e il raggio del bordo utilizzando la variabile --border-radius.*/
+.ball {       
+    width: var(--width);
+    height: var(--heigth);
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
 }
