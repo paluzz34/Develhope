@@ -51,29 +51,6 @@
     padding-right: 20px;
   }
   
-  
-  .dropdown-content {                                      /* Stile per il contenuto del menu a tendina (nascosto per impostazione predefinita) */
-    display: none;
-    margin-top: 15px;
-    position: absolute;
-    background-color: #25252c;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  
-  .dropdown-content a {                           /* Stile per gli elementi del menu a tendina */   
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  
-  .dropdown:hover .dropdown-content {               /* Visualizza il menu a tendina quando si passa il mouse sopra al pulsante del menu a tendina */
-    display: block;
-  }
-  
   #disabledCol {
     color: rgb(108, 109, 108);
   }
@@ -110,20 +87,16 @@
     color: black;
   }
   
-  .hamburgher{
+  .hamburger{
     display: none;
 }
 
 @media(max-width:768px) {
-    .hamburgher{
+    .hamburger{
         display: block;
     }
-    
-    li{
-        display: none;
-    }
-
-    .search_bar{
+  
+   .left-nav, .right-nav{
         display: none;
     }
 }
