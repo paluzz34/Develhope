@@ -1,36 +1,17 @@
-crea uno script che:
-Al click del bottone inserisca la modalità dark
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .theme {
-            background-color: black;
-            color: white;
-        }
-    </style>
-
 </head>
-
 <body>
-    <h1>Dark Mode</h1>
-    <div>
-        <button class="btn">Dark Mode</button>
-    </div>
-    <script>
-        const btn = document.querySelector(".btn")
-        const body = document.querySelector("body")
-        
-        btn.addEventListener("click", () => {
-            body.classList.toggle("theme")
-        })
-    </script>
+   <div>
+    <h1>To-do list</h1>
+    <input type="text" placeholder="...">
+    <button onclick="addProduct()">Aggiungi</button>
+    <ul></ul>
+   </div> 
 </body>
-
+<script src="ese3.js"></script>
 </html>
